@@ -1,5 +1,7 @@
-91725@DESKTOP-9OO7ED0 MINGW64 ~/Desktop
-$ ls
+n91725@DESKTOP-9OO7ED0 MINGW64 ~/Desktop
+$
+
+ls
  0001.jpg
  Atom.lnk*
 'BGMI Bank Public HomePage'/
@@ -564,3 +566,8 @@ $
 
 91725@DESKTOP-9OO7ED0 MINGW64 ~/Desktop/DSA_Repositries (master)
 $
+
+-------------------------------------------------------------------------
+
+
+This will our GIT Commands so be Ready to use---------------------------
