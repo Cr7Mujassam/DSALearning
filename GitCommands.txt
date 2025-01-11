@@ -1,0 +1,566 @@
+91725@DESKTOP-9OO7ED0 MINGW64 ~/Desktop
+$ ls
+ 0001.jpg
+ Atom.lnk*
+'BGMI Bank Public HomePage'/
+ CodeBlocks.lnk*
+ College_Database/
+ DSA_Repositries/
+ Dev-C++.lnk*
+'Eclipse IDE for Enterprise Java and Web Developers - 2024-09.lnk'*
+'Eclipse Jee 2019-03.lnk'*
+ ITDe-Filing-2024.lnk*
+'Interview Topics.txt'
+ IntezarWebpage/
+'Java script codes'/
+'MTECH - Chrome.lnk'*
+'New Text Document.txt'
+ Office.lnk*
+ Postman.lnk*
+ ProjectsFolder/
+ SpringBootProjects/
+'SpringToolSuite4.exe - Shortcut.lnk'*
+ Telegram.lnk*
+'This PC - Shortcut.lnk'*
+'Topics for videos.txt'
+'T'$'\177''.txt'
+'Visual Studio Code.lnk'*
+ Zoom.lnk*
+ compile.java
+ desktop.ini
+'dsgsdg - Chrome.lnk'*
+ flutter_projects/
+ hibernate.cfg.xml
+ note.html
+ prime.py
+'sqldeveloper - Shortcut.lnk'*
+ vyaparApp.lnk*
+
+91725@DESKTOP-9OO7ED0 MINGW64 ~/Desktop
+$ DSA_Repositries
+
+bash: DSA_Repositries: command not found
+
+91725@DESKTOP-9OO7ED0 MINGW64 ~/Desktop
+$
+
+91725@DESKTOP-9OO7ED0 MINGW64 ~/Desktop
+$ cd ^C
+
+91725@DESKTOP-9OO7ED0 MINGW64 ~/Desktop
+$ cd DSA_Repositries
+
+91725@DESKTOP-9OO7ED0 MINGW64 ~/Desktop/DSA_Repositries (master)
+$ ls -a
+./  ../  .git/
+
+91725@DESKTOP-9OO7ED0 MINGW64 ~/Desktop/DSA_Repositries (master)
+$ touch name.txt
+
+91725@DESKTOP-9OO7ED0 MINGW64 ~/Desktop/DSA_Repositries (master)
+$ ls
+name.txt
+
+91725@DESKTOP-9OO7ED0 MINGW64 ~/Desktop/DSA_Repositries (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        name.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+91725@DESKTOP-9OO7ED0 MINGW64 ~/Desktop/DSA_Repositries (master)
+$ git add .
+
+91725@DESKTOP-9OO7ED0 MINGW64 ~/Desktop/DSA_Repositries (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   name.txt
+
+
+91725@DESKTOP-9OO7ED0 MINGW64 ~/Desktop/DSA_Repositries (master)
+$ git commit -m "name.txt has been created"
+[master (root-commit) 343895e] name.txt has been created
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 name.txt
+
+91725@DESKTOP-9OO7ED0 MINGW64 ~/Desktop/DSA_Repositries (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+warning: in the working copy of 'name.txt', LF will be replaced by CRLF the next
+ time Git touches it
+warning: in the working copy of 'name.txt', LF will be replaced by CRLF the next
+ time Git touches it
+Aborting commit due to empty commit message.
+
+91725@DESKTOP-9OO7ED0 MINGW64 ~/Desktop/DSA_Repositries (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   name.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+91725@DESKTOP-9OO7ED0 MINGW64 ~/Desktop/DSA_Repositries (master)
+$ git commit -m "Name.txt is now commited"
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   name.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+91725@DESKTOP-9OO7ED0 MINGW64 ~/Desktop/DSA_Repositries (master)
+$ git commit
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   name.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+91725@DESKTOP-9OO7ED0 MINGW64 ~/Desktop/DSA_Repositries (master)
+$
+
+91725@DESKTOP-9OO7ED0 MINGW64 ~/Desktop/DSA_Repositries (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   name.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+91725@DESKTOP-9OO7ED0 MINGW64 ~/Desktop/DSA_Repositries (master)
+$ git add
+Nothing specified, nothing added.
+hint: Maybe you wanted to say 'git add .'?
+hint: Disable this message with "git config advice.addEmptyPathspec false"
+
+91725@DESKTOP-9OO7ED0 MINGW64 ~/Desktop/DSA_Repositries (master)
+$ git add name.txt
+warning: in the working copy of 'name.txt', LF will be replaced by CRLF the next
+ time Git touches it
+
+91725@DESKTOP-9OO7ED0 MINGW64 ~/Desktop/DSA_Repositries (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   name.txt
+
+
+91725@DESKTOP-9OO7ED0 MINGW64 ~/Desktop/DSA_Repositries (master)
+$ git commit -m "name.txtx will be commited now"
+[master 9e77961] name.txtx will be commited now
+ 1 file changed, 4 insertions(+)
+
+91725@DESKTOP-9OO7ED0 MINGW64 ~/Desktop/DSA_Repositries (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+91725@DESKTOP-9OO7ED0 MINGW64 ~/Desktop/DSA_Repositries (master)
+$ ls
+name.txt
+
+91725@DESKTOP-9OO7ED0 MINGW64 ~/Desktop/DSA_Repositries (master)
+$ cat name.txt
+--
+Hello and Welcome to my First Git Repositries using Command
+inser
+
+
+91725@DESKTOP-9OO7ED0 MINGW64 ~/Desktop/DSA_Repositries (master)
+$ vi name.txt
+
+91725@DESKTOP-9OO7ED0 MINGW64 ~/Desktop/DSA_Repositries (master)
+$ ls
+name.txt
+
+91725@DESKTOP-9OO7ED0 MINGW64 ~/Desktop/DSA_Repositries (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   name.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+91725@DESKTOP-9OO7ED0 MINGW64 ~/Desktop/DSA_Repositries (master)
+$ git add name.txt
+warning: in the working copy of 'name.txt', LF will be replaced by CRLF the next
+ time Git touches it
+
+91725@DESKTOP-9OO7ED0 MINGW64 ~/Desktop/DSA_Repositries (master)
+$
+
+91725@DESKTOP-9OO7ED0 MINGW64 ~/Desktop/DSA_Repositries (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   name.txt
+
+
+91725@DESKTOP-9OO7ED0 MINGW64 ~/Desktop/DSA_Repositries (master)
+$ git restore --staged name.txt
+
+91725@DESKTOP-9OO7ED0 MINGW64 ~/Desktop/DSA_Repositries (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   name.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+91725@DESKTOP-9OO7ED0 MINGW64 ~/Desktop/DSA_Repositries (master)
+$ git add name.txt
+warning: in the working copy of 'name.txt', LF will be replaced by CRLF the next
+ time Git touches it
+
+91725@DESKTOP-9OO7ED0 MINGW64 ~/Desktop/DSA_Repositries (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   name.txt
+
+
+91725@DESKTOP-9OO7ED0 MINGW64 ~/Desktop/DSA_Repositries (master)
+$ git commit -m "name.txt is now added with new lines"
+[master c304893] name.txt is now added with new lines
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+91725@DESKTOP-9OO7ED0 MINGW64 ~/Desktop/DSA_Repositries (master)
+$ git log
+commit c304893d48b01c8cc406c1bb3799397a580018cd (HEAD -> master)
+Author: Mujassam Taukir Khan <106069072+Cr7Mujassam@users.noreply.github.com>
+Date:   Sat Jan 11 20:54:56 2025 +0530
+
+    name.txt is now added with new lines
+
+commit 9e77961bcd9526d762dcfbb4ecf20f28f2a6426c
+Author: Mujassam Taukir Khan <106069072+Cr7Mujassam@users.noreply.github.com>
+Date:   Sat Jan 11 01:24:09 2025 +0530
+
+    name.txtx will be commited now
+
+commit 343895e7f21bfbd56be155c00cb57a4c5149bedc
+Author: Mujassam Taukir Khan <106069072+Cr7Mujassam@users.noreply.github.com>
+Date:   Thu Jan 9 22:18:13 2025 +0530
+
+    name.txt has been created
+
+91725@DESKTOP-9OO7ED0 MINGW64 ~/Desktop/DSA_Repositries (master)
+$ rm -rf name.txt
+
+91725@DESKTOP-9OO7ED0 MINGW64 ~/Desktop/DSA_Repositries (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        deleted:    name.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+91725@DESKTOP-9OO7ED0 MINGW64 ~/Desktop/DSA_Repositries (master)
+$ git add name.txt
+
+91725@DESKTOP-9OO7ED0 MINGW64 ~/Desktop/DSA_Repositries (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        deleted:    name.txt
+
+
+91725@DESKTOP-9OO7ED0 MINGW64 ~/Desktop/DSA_Repositries (master)
+$ git commit -m "name.txt has been deleted now"
+[master aa850dd] name.txt has been deleted now
+ 1 file changed, 4 deletions(-)
+ delete mode 100644 name.txt
+
+91725@DESKTOP-9OO7ED0 MINGW64 ~/Desktop/DSA_Repositries (master)
+$ ls
+
+91725@DESKTOP-9OO7ED0 MINGW64 ~/Desktop/DSA_Repositries (master)
+$ git log
+commit aa850dd2185d1005c0e5f0d913d848580bd5721f (HEAD -> master)
+Author: Mujassam Taukir Khan <106069072+Cr7Mujassam@users.noreply.github.com>
+Date:   Sat Jan 11 20:58:46 2025 +0530
+
+    name.txt has been deleted now
+
+commit c304893d48b01c8cc406c1bb3799397a580018cd
+Author: Mujassam Taukir Khan <106069072+Cr7Mujassam@users.noreply.github.com>
+Date:   Sat Jan 11 20:54:56 2025 +0530
+
+    name.txt is now added with new lines
+
+commit 9e77961bcd9526d762dcfbb4ecf20f28f2a6426c
+Author: Mujassam Taukir Khan <106069072+Cr7Mujassam@users.noreply.github.com>
+Date:   Sat Jan 11 01:24:09 2025 +0530
+
+    name.txtx will be commited now
+
+commit 343895e7f21bfbd56be155c00cb57a4c5149bedc
+Author: Mujassam Taukir Khan <106069072+Cr7Mujassam@users.noreply.github.com>
+Date:   Thu Jan 9 22:18:13 2025 +0530
+
+    name.txt has been created
+
+91725@DESKTOP-9OO7ED0 MINGW64 ~/Desktop/DSA_Repositries (master)
+$ ^C
+
+91725@DESKTOP-9OO7ED0 MINGW64 ~/Desktop/DSA_Repositries (master)
+$ git reset ^[[200~c304893d48b01c8cc406c1bb3799397a580018cd
+
+91725@DESKTOP-9OO7ED0 MINGW64 ~/Desktop/DSA_Repositries (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+91725@DESKTOP-9OO7ED0 MINGW64 ~/Desktop/DSA_Repositries (master)
+$ git log
+commit aa850dd2185d1005c0e5f0d913d848580bd5721f (HEAD -> master)
+Author: Mujassam Taukir Khan <106069072+Cr7Mujassam@users.noreply.github.com>
+Date:   Sat Jan 11 20:58:46 2025 +0530
+
+    name.txt has been deleted now
+
+commit c304893d48b01c8cc406c1bb3799397a580018cd
+Author: Mujassam Taukir Khan <106069072+Cr7Mujassam@users.noreply.github.com>
+Date:   Sat Jan 11 20:54:56 2025 +0530
+
+    name.txt is now added with new lines
+
+commit 9e77961bcd9526d762dcfbb4ecf20f28f2a6426c
+Author: Mujassam Taukir Khan <106069072+Cr7Mujassam@users.noreply.github.com>
+Date:   Sat Jan 11 01:24:09 2025 +0530
+
+    name.txtx will be commited now
+
+commit 343895e7f21bfbd56be155c00cb57a4c5149bedc
+Author: Mujassam Taukir Khan <106069072+Cr7Mujassam@users.noreply.github.com>
+Date:   Thu Jan 9 22:18:13 2025 +0530
+
+    name.txt has been created
+
+91725@DESKTOP-9OO7ED0 MINGW64 ~/Desktop/DSA_Repositries (master)
+$ git reset c304893d48b01c8cc406c1bb3799397a580018cd
+Unstaged changes after reset:
+D       name.txt
+
+91725@DESKTOP-9OO7ED0 MINGW64 ~/Desktop/DSA_Repositries (master)
+$ git log
+
+commit c304893d48b01c8cc406c1bb3799397a580018cd (HEAD -> master)
+Author: Mujassam Taukir Khan <106069072+Cr7Mujassam@users.noreply.github.com>
+Date:   Sat Jan 11 20:54:56 2025 +0530
+
+    name.txt is now added with new lines
+
+commit 9e77961bcd9526d762dcfbb4ecf20f28f2a6426c
+Author: Mujassam Taukir Khan <106069072+Cr7Mujassam@users.noreply.github.com>
+Date:   Sat Jan 11 01:24:09 2025 +0530
+
+    name.txtx will be commited now
+
+commit 343895e7f21bfbd56be155c00cb57a4c5149bedc
+Author: Mujassam Taukir Khan <106069072+Cr7Mujassam@users.noreply.github.com>
+Date:   Thu Jan 9 22:18:13 2025 +0530
+
+    name.txt has been created
+
+91725@DESKTOP-9OO7ED0 MINGW64 ~/Desktop/DSA_Repositries (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        deleted:    name.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+91725@DESKTOP-9OO7ED0 MINGW64 ~/Desktop/DSA_Repositries (master)
+$ git add .
+
+91725@DESKTOP-9OO7ED0 MINGW64 ~/Desktop/DSA_Repositries (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        deleted:    name.txt
+
+
+91725@DESKTOP-9OO7ED0 MINGW64 ~/Desktop/DSA_Repositries (master)
+$ touch file.txt
+
+91725@DESKTOP-9OO7ED0 MINGW64 ~/Desktop/DSA_Repositries (master)
+$
+
+91725@DESKTOP-9OO7ED0 MINGW64 ~/Desktop/DSA_Repositries (master)
+$ ls
+file.txt
+
+91725@DESKTOP-9OO7ED0 MINGW64 ~/Desktop/DSA_Repositries (master)
+$ git add .
+
+91725@DESKTOP-9OO7ED0 MINGW64 ~/Desktop/DSA_Repositries (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   file.txt
+        deleted:    name.txt
+
+
+91725@DESKTOP-9OO7ED0 MINGW64 ~/Desktop/DSA_Repositries (master)
+$ git stash
+Saved working directory and index state WIP on master: c304893 name.txt is now a
+dded with new lines
+
+91725@DESKTOP-9OO7ED0 MINGW64 ~/Desktop/DSA_Repositries (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+91725@DESKTOP-9OO7ED0 MINGW64 ~/Desktop/DSA_Repositries (master)
+$ touch surnamename.txt
+
+91725@DESKTOP-9OO7ED0 MINGW64 ~/Desktop/DSA_Repositries (master)
+$ git add .
+
+91725@DESKTOP-9OO7ED0 MINGW64 ~/Desktop/DSA_Repositries (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   surnamename.txt
+
+
+91725@DESKTOP-9OO7ED0 MINGW64 ~/Desktop/DSA_Repositries (master)
+$ git stash clear
+
+91725@DESKTOP-9OO7ED0 MINGW64 ~/Desktop/DSA_Repositries (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   surnamename.txt
+
+
+91725@DESKTOP-9OO7ED0 MINGW64 ~/Desktop/DSA_Repositries (master)
+$ git add .
+
+91725@DESKTOP-9OO7ED0 MINGW64 ~/Desktop/DSA_Repositries (master)
+$ git status
+
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   surnamename.txt
+
+
+91725@DESKTOP-9OO7ED0 MINGW64 ~/Desktop/DSA_Repositries (master)
+$
+
+91725@DESKTOP-9OO7ED0 MINGW64 ~/Desktop/DSA_Repositries (master)
+$ git remote add origin ^[[200~https://github.com/Cr7Mujassam/DSALearning.git~
+
+91725@DESKTOP-9OO7ED0 MINGW64 ~/Desktop/DSA_Repositries (master)
+$ git remote -v
+origin  ^[[200~https://github.com/Cr7Mujassam/DSALearning.git~ (fetch)
+origin  ^[[200~https://github.com/Cr7Mujassam/DSALearning.git~ (push)
+
+91725@DESKTOP-9OO7ED0 MINGW64 ~/Desktop/DSA_Repositries (master)
+$ git push origin master
+fatal: protocol '^[[200~https' is not supported
+
+91725@DESKTOP-9OO7ED0 MINGW64 ~/Desktop/DSA_Repositries (master)
+$ git remote add origin https://github.com/Cr7Mujassam/DSALearning.git
+error: remote origin already exists.
+
+91725@DESKTOP-9OO7ED0 MINGW64 ~/Desktop/DSA_Repositries (master)
+$ git push origin master
+fatal: protocol '^[[200~https' is not supported
+
+91725@DESKTOP-9OO7ED0 MINGW64 ~/Desktop/DSA_Repositries (master)
+$ ^C
+
+91725@DESKTOP-9OO7ED0 MINGW64 ~/Desktop/DSA_Repositries (master)
+$ cd desktop
+bash: cd: desktop: No such file or directory
+
+
+91725@DESKTOP-9OO7ED0 MINGW64 ~/Desktop/DSA_Repositries (master)
+$
+
+91725@DESKTOP-9OO7ED0 MINGW64 ~/Desktop/DSA_Repositries (master)
+$
