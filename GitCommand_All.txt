@@ -1,0 +1,30 @@
+Command Lines for Windows/ shell scripting
+ls -> show all the folders of list
+mkdir -> create a empty folder e.g mkdir project( Now project folder will be created)
+cd -> change directory (it will move you to another folder)
+git init -> create a git repositries in my local machine
+ls -a -> This command will show hidden files
+touch [File Name] -> this command will create a files
+git status -> this command will tell/trac the records for what we have made changes in out projects which is not in the history of my project.
+git add . -> this command will save all the records which is in the same directory
+git add [name of the files] -> this will save /maintain the records particular files
+git commit -> this will now save all changes
+git commit -m "This consists message while commiting" -> this willl now save all changes and trac records including passsing a message while commiting the changes
+ vi [Files name]  -> want to do some changes through command line
+cat [files name] -> it will show what inside the file-m
+:wq :- if you want to came out of the files
+git restore --staged [file name] :- if you want to get out the stage and don't want to commit
+git log -> this will show the history of the projects
+rm -rf [file name] -> if we want to delete the file
+git reset [copy the hash key of the commenyt using git log to retrive the comment] -> this will delete the comment and also make sure this will also deleted all the above comment from log
+git stash -> this will save all the files at back and then we can make chnages at last as previous commit done
+git stash clear -> this will permanently delete the chnages from history
+git remote add origin [repositries URL form github] -> this will attach your repositries from GITHUB to your local Git
+git push origin master -> this will push all the changes into GIt Hub
+git branch [branch name] :- if we want to create the brnach to work separate on you features wihtout pushing our changes in main/master branch
+git checkout [branch name] :- to came over the branch and then commit (it willl point the brnach where you want to work)
+git merge [branch name] :- it will commit with the main branch.if your code is finalize then we will merge our code with main branch
+git clone [URL for the repositries] :- this downlaod your project into your local machine
+cat [file name] :-  it will read all the data which is inside the folder.
+git remote add upstream[URL] :- this will add the main project branch 
+ 
