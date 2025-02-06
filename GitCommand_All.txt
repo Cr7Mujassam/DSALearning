@@ -28,4 +28,4 @@ git clone [URL for the repositries] :- this downlaod your project into your loca
 cat [file name] :-  it will read all the data which is inside the folder.
 git remote add upstream[URL] :- this will add the main project branch 
 $ git config --get remote.origin.url :- This will show that which remote repositries is connected wiht git
- 
+ rm -rf .git :- to remove .git from local folder
